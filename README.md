@@ -4,16 +4,26 @@
 The **VR vehicle maintenance System** is a prototype designed to visualize car parts and identify potential issues in a virtual environment. Currently, the project uses **Open3D** for 3D visualization as a proof of concept. The ultimate goal is to integrate full Virtual Reality (VR) capabilities for an immersive and interactive experience.
 
 ---
+### Key Features:
+- **Virtual Training**: Interactive training environments to simulate real-world vehicle repair scenarios.
+- **Hazardous Repairs Simulation**: VR-based simulations of high-risk maintenance tasks to prepare technicians for challenging situations.
+- **Cost-effective Learning**: Reduces the need for physical parts and equipment while offering an engaging learning experience.
+- **Real-time Feedback**: Technicians receive immediate feedback during the VR training session to correct mistakes and improve skills.
+---
+## Current Progress:
+- **Frontend**: The user interface is fully functional, providing an easy-to-use portal for enabling VR services and starting VR sessions. It includes sections such as:
+  - Home
+  - Services
+  - VR Demo
 
-## **Features**
+- **Backend**: The backend logic for enabling VR services and starting VR sessions is currently in the planning phase. The backend will connect to the VR system and handle the process of initiating VR sessions for technicians. However, this feature will be implemented in the next phase.
 
-- 🛠 **Prototype Visualization**: View car parts in a simulated 3D environment using Open3D.
-- 🚨 **Problem Identification**: Display detected issues in car components during visualization.
-- 🌐 **Web Interface**: Simple and intuitive frontend to trigger simulations and view status updates.
-- 🔧 **Vision for VR**: Future development will involve VR integration to revolutionize car repair diagnostics.
+## Next Phase:
+- **Developing the VR Training Environment**: Building interactive 3D models of car parts and repair scenarios.
+- **Backend Connection**: The backend logic to handle the VR system enabling will be integrated. This includes connecting the application to the VR system, verifying availability, and enabling the VR service for technicians.
+- **VR Enabling**: The VR enabling functionality will be implemented, allowing the user to enable the VR service through the frontend. This step will connect the platform with the VR infrastructure and start the training sessions.
 
 ---
-
 ## **Technologies Used**
 
 - **Backend**: Python, Flask

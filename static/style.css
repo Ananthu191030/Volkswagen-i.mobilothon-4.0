@@ -1,0 +1,231 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #007bff;
+}
+
+/* Main content styling */
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.content-left {
+  flex: 1;
+}
+
+.content-left h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.content-left p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.content-left button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto; /* Centers the button */
+  display: block; /* Ensures margin auto centers the button */
+}
+
+
+/* Button click interaction */
+button:active {
+  background-color: #0056b3;
+}
+
+/* Image grid styling */
+.content-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.image-container-left {
+  width: 100%;
+}
+
+.image-container-left img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Footer stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.stats div {
+  font-size: 18px;
+}
+
+.stats span {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  color: #333;
+}
+/* Services section styling */
+/* Services Section Styling */
+.services-section {
+  padding: 60px 20px;
+  margin-top: 100px;
+  background-image: url('screenshot_2022-08-17_094151.jpg'); /* Add a background image here */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: hsla(100, 2%, 66%, 0.648);
+}
+
+.services-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Adds a dark overlay */
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #9d9c98; /* Accent color */
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+/* Hover Effects */
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.service-card:hover h3 {
+  color: #ffffff; /* Change title color on hover */
+}
+
+#contact {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.contact-links a:hover {
+  color: #007bff;
+}
+
+.contact-links i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+  .stats {
+    flex-direction: column;
+  }
+}

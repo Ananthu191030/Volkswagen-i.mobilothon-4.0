@@ -19,8 +19,12 @@ The **VR vehicle maintenance System** is a prototype designed to visualize car p
 - **Backend**: Python, Flask
 - **Frontend**: HTML, CSS, JavaScript
 - **3D Simulation**: Open3D (Prototype implementation)
-- **Tools**: Subprocess for backend process management
 
+## **Tools**
+
+- **Flask**: Routing and server functionality.
+- **Open3D**: Visualizing car parts in a 3D simulated environment.
+- **Subprocess**: Backend process management.
 ---
 
 

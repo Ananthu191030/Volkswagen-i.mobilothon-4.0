@@ -110,4 +110,4 @@ if __name__ == "__main__":
     }
 
     # Start visualization
-    create_car_parts_visualization(car_part)
+    create_car_parts_visualization(car_parts)

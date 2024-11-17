@@ -27,5 +27,9 @@ The **VR vehicle maintenance System** is a prototype designed to visualize car p
 - **Subprocess**: Backend process management.
 ---
 
+## **Demo Video**
 
+Watch the demo video to see how the VR Car Repair System prototype works:
+
+https://github.com/user-attachments/assets/f176d609-f304-4c4e-8d2c-270afb5ccf8d
 
